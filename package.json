@@ -1,0 +1,22 @@
+{
+  "name": "web_proj",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "request": "^2.88.2"
+  },
+  "bin": {
+    "web_proj": "www.js"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
